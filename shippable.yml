@@ -5,4 +5,5 @@ jobs:
       nodePool: dyn_win_pool
     steps:
       - TASK:
-          - script: echo "Hello, World!"
+          script: 
+            - echo "Hello, World!"
