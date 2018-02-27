@@ -1,0 +1,8 @@
+jobs:
+  - name: dyn_win_job
+    type: runSh
+    runtime:
+      nodePool: dyn_win_pool
+    steps:
+      - TASK:
+          - script: echo "Hello, World!"
